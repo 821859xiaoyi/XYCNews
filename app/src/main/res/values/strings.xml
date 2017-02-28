@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">天天新闻</string>
+    <string name="string_about_banquan">版权归作者所有</string>
+    <string name="string_about_notification">请勿用于商业用途</string>
+    <string name="string_about_github">github:https://github.com/821859xiaoyi/XYCNews.git</string>
+    <string name="string_about_jianshu">简书:http://www.jianshu.com/users/8026b21b8323/timeline</string>
+    <string name="string_about_blog">博客:http://my.csdn.net/?ref=toolbar</string>
+
+    <string-array name="news_type_cn">
+        <item>头条</item>
+        <item>社会</item>
+        <item>国内</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>财经</item>
+        <item>时尚</item>
+    </string-array>
+    <string-array name="news_type_en">
+        <item>toutiao</item>
+        <item>shehui</item>
+        <item>guonei</item>
+        <item>yule</item>
+        <item>tiyu</item>
+        <item>junshi</item>
+        <item>keji</item>
+        <item>caijing</item>
+        <item>shishang</item>
+    </string-array>
+</resources>
