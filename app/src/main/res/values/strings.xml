@@ -6,6 +6,7 @@
     <string name="string_about_jianshu">简书:http://www.jianshu.com/users/8026b21b8323/timeline</string>
     <string name="string_about_blog">博客:http://my.csdn.net/?ref=toolbar</string>
 
+
     <string-array name="news_type_cn">
         <item>头条</item>
         <item>社会</item>

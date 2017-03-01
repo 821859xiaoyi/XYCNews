@@ -33,7 +33,7 @@ public class AboutFragment extends Fragment {
 
         ButterKnife.bind(this, view);
         Glide.with(this)
-                .load("http://img.17gexing.com/uploadfile/2016/07/2/20160725115727230.jpg")
+                .load("http://img.17gexing.com/uploadfile/2015/01/2/20150103071602689.jpg")
                 .centerCrop()
                 .into(imageView);
 

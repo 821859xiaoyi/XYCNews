@@ -18,7 +18,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SplashActivity extends AppCompatActivity {
-
     @BindView(R.id.iv_splash)
     ImageView ivSplash;
     @BindView(R.id.activity_splash)
@@ -44,7 +43,7 @@ public class SplashActivity extends AppCompatActivity {
         ObjectAnimator translationY = ObjectAnimator.ofFloat(ivSplash, "translationY", -100, 90, -80, 70, -60, 50);
 
         set.playTogether(translationX, translationY);
-        set.setDuration(2000);
+        set.setDuration(5000);
         addListener();
 
         /*************************** 版本更新校验 ***************************/
@@ -88,8 +87,6 @@ public class SplashActivity extends AppCompatActivity {
 //        });
 
 
-
-
     }
 
     private void addListener(){
@@ -97,13 +94,12 @@ public class SplashActivity extends AppCompatActivity {
         set.addListener(new Animator.AnimatorListener() {
             @Override
             public void onAnimationStart(Animator animation) {
-
             }
 
             @Override
             public void onAnimationEnd(Animator animation) {
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(1000);
                     startActivity(new Intent(SplashActivity.this, MainActivity.class));
                     finish();
                 } catch (InterruptedException e) {

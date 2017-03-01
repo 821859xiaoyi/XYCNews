@@ -51,4 +51,10 @@
 
     <color name="white">#fff</color>
 
+    <!--launcherView need-->
+    <color name="load_red">#fa007a</color>
+    <color name="load_purple">#935fe7</color>
+    <color name="load_yellow">#f9b11f</color>
+    <color name="load_blue">#009cfa</color>Ω
+
 </resources>
